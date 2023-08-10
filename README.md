@@ -13,12 +13,13 @@ Facial recognition where an image of a person reocnoce and validates it through 
 Note: Have **good GPU** 
 
 1. Modify root to your root 'dlib-19.22.99-cp310-cp310-win_amd64.whl'
+   
    <p align="center">
   <img src="README-images\req.PNG" alt="StepLast">
  </p>
 
-2. Use Dockerfile 
-3. Use virtual enviroments and apply  requirements.txt 
+1. Use Dockerfile 
+2. Use virtual enviroments and apply  requirements.txt 
 ```python
 #virtual enviroment with conda 
 conda create -n my_enviroment python=3.10.12
